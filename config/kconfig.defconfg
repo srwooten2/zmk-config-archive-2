@@ -5,5 +5,11 @@ if SHIELD_thoth
 
 config ZMK_KEYBOARD_NAME
 	default "thoth"
+	
+config ZMK_USB
+	default y
 
+config ZMK_BLE
+	default y
+	
 endif
